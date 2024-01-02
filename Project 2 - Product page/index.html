@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page | صفحه محصولات</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Outfit:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <p class="title" id="title">Botostart | Product page</p>
+    </header>
+    <main>
+        <div id="search">
+            <input type="text" placeholder="search" id="search-input">
+            <div>
+                <button class="filter" data-filter="all" >All</button>
+                <button class="filter" data-filter="tech">Tech</button>
+                <button class="filter" data-filter="clothes">Clothes</button>
+                <button class="filter" data-filter="health">Health</button>
+            </div>
+            <div id="search-price">
+                <input type="number" placeholder="Search Price">
+                <button>Search</button>
+            </div>
+        </div>
+        <div id="products">
+            <div class="product-item" data-category="tech">
+                <img src="/Project 2 - Product page/img/iphone.png" alt="">
+                <p>Apple Iphone 14 pro</p>
+                <span>$ 1499</span>
+            </div>
+            <div class="product-item" data-category="tech">
+                <img src="/Project 2 - Product page/img/macbook.jpg" alt="">
+                <p>Apple Macbook pro</p>
+                <span>$ 1989</span>
+            </div>
+            <div class="product-item" data-category="tech">
+                <img src="/Project 2 - Product page/img/airpods.png" alt="">
+                <p>Apple airpods pro</p>
+                <span>$ 256</span>
+            </div>
+            <div class="product-item" data-category="clothes">
+                <img src="/Project 2 - Product page/img/bag.png" alt="">
+                <p>College bag</p>
+                <span>$ 120</span>
+            </div>
+            <div class="product-item" data-category="clothes">
+                <img src="/Project 2 - Product page/img/jacket.png" alt="">
+                <p>Jacket</p>
+                <span>$ 145</span>
+            </div>
+            <div class="product-item" data-category="clothes">
+                <img src="/Project 2 - Product page/img/shoes.png" alt="">
+                <p>Running shoes</p>
+                <span>$ 69</span>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="/Project 2 - Product page/img/cream.png" alt="">
+                <p>Routin Skin Care Cream</p>
+                <span>$ 84</span>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="/Project 2 - Product page/img/shampoo.png" alt="">
+                <p>Haier Shampoo</p>
+                <span>$ 12</span>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="/Project 2 - Product page/img/vitamin.png" alt="">
+                <p>Vitamin E Capsole</p>
+                <span>$ 99</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="JavaScript/app.js"></script>
+</body>
+</html>
